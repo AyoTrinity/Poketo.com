@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav1{
+    background-color: rgb(0,133,202);
+    display: flex;
+    justify-content:center;
+    font-family : var(--font-body-small-family);
+    color: white;
+    padding: 9px 0;
+}
+.nav1 p{
+    font-size: 16px;
+    text-underline-offset: 4px;
+
+}
+
+.nav2{
+    position: fixed;
+    z-index: 20;
+    padding-top: 40px;
+    display: flex;
+    background-color: white;
+}
+.nav2a{
+    margin-left: 40px;
+    font-size: 15px;
+    line-height: 19.5px;
+    margin-left: 60px;
+}
+.nav2a img{
+    width: 100px;
+    height: 20px;
+}
+.nav2a1{
+    display: flex;
+}
+.nav2a1 p{
+    margin-top: 5px;
+}
+.nav2a1 img{
+    width: 10px;
+    height: 10px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.nav2b{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+.nav2b p{
+    margin: 0 20px;
+}
+.nav2b :hover p{
+    margin: 0 20px;
+    cursor: pointer;
+}
+.nav2b img{
+    margin: 10px 20px 0;
+    width: 10px;
+    height: 10px;
+}
+.nav2b :hover img{
+    margin: 10px 20px 0;
+    width: 10px;
+    height: 10px;
+    transition: transform 1s;
+    cursor: pointer;
+}
+.shopAll{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .nav2b1a :hover .shopAll{
+    cursor: pointer;
+} */
+.nav2c{
+    margin-left: 10px;
+}
+.nav2c img{
+    width: 19px;
+}
+.nav2c input{
+    background-color: rgb(243,243,243);
+    border: none;
+    width: 170px;
+    height: 40px; 
+    color: black;
+}
+.nav2c input p{
+    color: black;
+}
+.nav2d{
+    margin-top: 8px;
+    margin-left: 23px;
+    padding-right: 45px;
+}
+.nav2d img{
+    padding: 0 12px;
+    width: 21px;  
+}
+
+.signin{
+    justify-content: center;
+    text-align: center;
+    margin-top: 170px;
+}
+.signin input{
+    margin: 14px 0;
+    width: 420px;
+    border: none;
+    background-color: rgb(243,243,243);
+    padding: 8px 0 8px 14px;
+    font-size: 14px;
+}
+.login{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.password{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    
+}
+.password p{
+    margin-right: 280px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    font-size: 17px;
+}
+.password button{
+    background-color: rgb(0,133,202);
+    border: none;
+    width: 430px;
+    color: white;
+    font-size: 15px;
+    padding: 18px 0;
+    border-radius: 23px;
+}
+.createaccount{
+    margin-top: 16px;
+    font-size: 19px;
+    text-underline-offset: 4px;
+}
+.createaccount a{
+    color: black;
+}
+
+footer{
+    background-color: rgb(0,133,202); 
+    margin-top: 40px;
+}
+.footer1{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 60px;
+}
+.footer1 img{
+    padding-bottom: 20px;
+}
+.footer1a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.footer1a :hover{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    color: rgb(180, 222, 241);
+    cursor: pointer;
+}
+.footer1a img{
+    width: 15px;
+    height: 17px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.footer1a img :hover{
+    width: 15px;
+    height: 17px;
+    margin-left: 4px;
+    color: rgb(180, 222, 241);
+}
+.footer22{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.footer22 ul{
+    margin: 0 70px;
+}
+.footer22 li{
+    margin: 5px 0;
+}
+.footer2a{
+    color: white;
+    font-size: 17px;
+}
+.footer2{
+    color: rgb(180, 222, 241);
+}
+.footer2 :hover{
+    color: white;
+    cursor: pointer;
+}
+.footer3{
+    margin-left: 40px;
+    color: rgb(180, 222, 241);
+}
+.footer3 p{
+    margin: 8px 0;
+}
+.footer3 input{
+    background-color: rgb(0,133,202);
+    border: none;
+    border-bottom: 1px solid rgb(61,162,215);
+    color: rgb(241, 180, 226);
+    width: 343px;
+    margin-top: 34px;
+    padding-bottom: 14px;
+}
+.footer4{
+   display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-right: 30px;
+}
+.footer4 img{
+    width: 27px;
+}
+.footer4 img :hover{
+    width: 27px;
+    cursor: pointer;
+    color: aqua;
+}
+.footer4 ul{
+    display: flex;
+}
+.footer4 li{
+    margin: 0 20px;
+}
+.footer5{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 90px;
+    padding-bottom: 30px;
+}
+.footer5a{
+    margin-left: 80px;
+}
+.footer5b{
+    display: flex;
+}
+.footer5b p{
+    margin-right: 38px;
+}

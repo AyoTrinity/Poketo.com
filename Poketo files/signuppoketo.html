@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="csssignuppoketo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="nav1">
+        <p>Free Shipping over $50</p>
+        <p style="padding-left: 4px;"><u>Shop Now</u></p>
+    </div>
+
+    <div class="nav2">
+        <div class="nav2a">
+            <a href="homepoketo.html"><img src="img/poketologo.png" alt=""></a>
+            <div class="nav2a1">
+                <p>Shop the family of brands</p>
+                <img src="img/icons8-chevron-down-48.png"  alt="">
+            </div>
+            
+        </div>
+        <div class="nav2b">
+            <div class="nav2b1a">
+                <p>Shop All</p>
+                <div class="nav2b1">
+                    <img src="img/icons8-chevron-down-48.png"  alt="">
+                </div>
+                <!-- <div class="shopAll">
+                    <div class="shopAllwriteup1">
+                        <p>Shop All</p>
+                    </div>
+                    <div class="shopAllfeatures">
+                        <ul>
+                            <li>Shop All</li>
+                            <li>New Arrivals</li>
+                            <li>Best Sellers</li>
+                            <li>Poketo x Headspace</li>
+                            <li>Gift Guide</li>
+                        </ul>
+                    </div>
+                    <div class="shopAllwriteup2">
+                        <p>Shop All</p>
+                        <div class="shopAllimg">
+                            <img src="img/PK-Nav-Shop_All.jpeg" alt="">
+                            <p>Shop All</p>
+                            <img src="img/PK-Nav-New_Arrivals_51c5f22b-f43c-4d66-bfc4-c994a23aaf51.jpeg" alt="">
+                            <p>New Arrivals</p>
+                            <img src="img/PK-Nav-Best_Sellers.jpeg" alt="">
+                            <p>Best Sellers</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="nav2b1">
+                <p>Best Sellers</p>
+                <div class="nav2b1">
+                    <img src="img/icons8-chevron-down-48.png"  alt="">
+                </div>
+            </div>
+            <div class="nav2b1">
+                <p>Stationery</p>
+                <div class="nav2b1">
+                    <img src="img/icons8-chevron-down-48.png"  alt="">
+                </div>
+            </div>
+            <div class="nav2b1">
+                <p>Desk Supplies</p>
+                <div class="nav2b1">
+                    <img src="img/icons8-chevron-down-48.png"  alt="">
+                </div>
+            </div>
+            <div class="nav2b1">
+                <p>Home & Lifestyle</p>
+                <div class="nav2b1">
+                    <img src="img/icons8-chevron-down-48.png"  alt="">
+                </div>
+            </div>
+            <div class="nav2b1">
+                <p style="color: RGB(216, 29, 50);">Last</p>
+                <div class="nav2b1">
+                    <p style="color: RGB(216, 29, 50);line-height: 21px;">Chance</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav2c">
+            <img src="img/icons8-search-30.png" alt="" class="search_icon" />
+            <input type="text" placeholder="Search..." />
+        </div>
+        <div class="nav2d">
+            <a href="signinpoketo.html"><img src="img/icons8-customer-48.png" alt=""></a>
+            <img src="img/icons8-cart-24.png" alt="">
+        </div>    
+    </div>
+
+    <span id="signUpsuccess" onclick="signUp()" style="color: rgb(0, 133, 202);"></span>
+
+    <div class="signin" onsubmit="signup()" action="" id="formA">
+        <div class="login">
+            <h1>Create account</h1>
+        </div>
+        <div class="form1">
+            <input type="text" id="fullname" placeholder="Full name">   <br>
+            <span id="fullnameerror" style="color: red; font-size: 13px;" class="error"></span>
+        </div>
+        <div class="form2">
+            <input type="number" id="phone" placeholder="Phone number"> <br>  
+            <span id="phoneerror" style="color: red; font-size: 13px;" class="error"></span>
+        </div>
+        <div class="form3"> 
+            <input type="email" id="email" placeholder="Email">  <br>
+            <span id="emailerror" style="color: red; font-size: 13px;" class="error"></span> 
+        </div>
+        <div class="form4">
+            <input type="password" id="password" placeholder="Password"> <br>
+            <span id="passworderror" style="color: red; font-size: 13px;" class="error"></span>
+        </div>
+        <div class="password">
+            <p>Forgot your password?</p>
+            <button type="submit" onclick="signup()">Create</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer1">
+            <img src="img/pk-logotype-light.jpeg" alt="">>
+            <div class="footer1a">
+                <p>Meet our growing Family</p>
+                <img src="img/icons8-chevron-up-26.png" alt="">
+            </div>
+        </div>
+        <div class="footer22">
+            <ul class="footer2">
+                <li class="footer2a">SHOP</li>
+                <li>Shop All</li>
+                <li>Best Sellers</li>
+                <li>Stationery</li>
+                <li>Home Decor</li>
+                <li>Gift Cards</li>
+            </ul>
+            <ul class="footer2">
+                <li class="footer2a">LEARN</li>
+                <li>About Us</li>
+                <li>Journals</li>
+                <li>Careers</li>
+            </ul>
+        
+            <ul class="footer2">
+                <li class="footer2a">HELP</li>
+                <li>FAQ</li>
+                <li>Supplemental Privacy</li>
+                <li>Policy</li>
+                <li>My Account</li>
+            </ul>
+            <ul class="footer2">
+                <li class="footer2a">CONNECT</li>
+                <li>Affiliate Program</li>
+                <li>Wholesale</li>
+                <li>Acquisition</li>
+                <li>Customization</li>
+                <li>Store Location</li>
+            </ul>
+            <div class="footer3">
+                <p style="color: white; font-size: 17px;">Join Our Family</p>
+                <p>Sign up for our Poketo newsletter and receive 10% off your first purchase. You'll be the first to hear about new arrivals, surprise savings, and more.
+                </p>
+                <input type="email" placeholder="Enter your email">
+                <p style="color: white;">SIGN UP</p>
+            </div>
+        </div>
+        <div class="footer4">
+            <ul>
+                <li><img src="img/icons8-facebook-30 (1).png" alt=""></li>
+                <li><img src="img/icons8-instagram-24.png" alt=""></li>
+                <li><img src="img/icons8-tiktok-30.png" alt=""></li>
+                <li><img src="img/icons8-twitter-24.png" alt=""></li>
+                <li><img src="img/icons8-pinterest-30.png" alt=""></li>
+                <li><img src="img/icons8-up-arrow-24.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="footer5">
+            <div class="footer5a">
+                <p>© 2023 Pattern</p>
+            </div>
+            <div class="footer5b">
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Accessibility</p>
+            </div>
+        </div>
+    </footer>
+    <script src="poketo.js"></script>
+    <script src="cartpoketo.js"></script>
+    <!-- <script src="admin.js"></script> -->
+</body>
+</html>
